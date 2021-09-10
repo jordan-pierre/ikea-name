@@ -8,6 +8,7 @@ def gen_ikea_name(original_name):
     if first_vowel is not None:
         name = name[:index] + random.choice(vowels[first_vowel]) + name[index + 1:]
     
+    # TODO: Strip special characters
     return name.capitalize()
 
 
@@ -17,7 +18,3 @@ def first_str_occurance(string, chars):
             return char, index
     else:
         return (None, 0)
-
-
-for i in range(10):
-    print(gen_ikea_name('u'))
