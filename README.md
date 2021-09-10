@@ -6,4 +6,4 @@ It's designed to be a simple demo of a streamlit app.
 
 To run, simply open a console and run 'streamlit run app.py' and follow the URL.
 
-![demo](ikea_name_generator.png)
+![demo](images/ikea_name_generator.png)
